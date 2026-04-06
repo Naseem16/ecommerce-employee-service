@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: employee_service
+server:
+  port: 8080
+
+management:
+  endpoint:
+    health:
+      exposure:
+        include: health
